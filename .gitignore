@@ -1,15 +1,7 @@
-
 *.class
 /target/
-
-
 *.log
-
-
 *.ctxt
-
-
-
 *.jar
 *.war
 *.nar
@@ -17,5 +9,4 @@
 *.zip
 *.tar.gz
 *.rar
-
 hs_err_pid*
