@@ -8,16 +8,12 @@ import montage.PsdLayer;
 import montage.PsdReader;
 import montage.ResourceReadProgressListener;
 import org.apache.logging.log4j.LogManager;
-import sun.rmi.runtime.Log;
 
 import javax.imageio.ImageIO;
-import javax.imageio.ImageReader;
 import javax.imageio.ImageTypeSpecifier;
 import javax.imageio.ImageWriter;
-import javax.imageio.stream.ImageInputStream;
 import javax.imageio.stream.ImageOutputStream;
 import java.awt.*;
-import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
