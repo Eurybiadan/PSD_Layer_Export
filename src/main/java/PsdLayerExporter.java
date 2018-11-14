@@ -15,6 +15,7 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.Iterator;
 
 import static javax.imageio.ImageWriteParam.MODE_EXPLICIT;
@@ -59,7 +60,8 @@ public class PsdLayerExporter extends Application {
                 }
                 LogManager.getLogger().info("Writing " + layerName +"."+ fileType +"("+(100f*progAmt/data.getNumLayers())+"%)");
 
-                File outFile = new File(exportFolder.getAbsolutePath()+"\\"+layerName+"."+fileType );
+
+                File outFile = Paths.get(exportFolder.getAbsolutePath(),layerName+"."+fileType).toFile();
                 ImageTypeSpecifier imSpec = new ImageTypeSpecifier( layer.getLayerImage().getColorModel(),
                         layer.getLayerImage().getSampleModel() );
 
@@ -91,18 +93,19 @@ public class PsdLayerExporter extends Application {
                         layerRect.x = -layerRect.x;
                         layer.bounds.x=0;
                     }
-                    if(layer.bounds.x+layer.bounds.width > data.getDimensions().width){
+                    if(layer.bounds.x+layer.bounds.width >= inSitu.getWidth()){
                         layerRect.width = data.getDimensions().width-layer.bounds.x-1;
-                        layer.bounds.width= data.getDimensions().width-1;
+                        layer.bounds.width= data.getDimensions().width-layer.bounds.x-1;
                     }
                     if(layer.bounds.y < 0){
                         layerRect.y = -layerRect.y;
                         layer.bounds.y=0;
                     }
-                    if(layer.bounds.y+layer.bounds.height > data.getDimensions().height){
+                    if(layer.bounds.y+layer.bounds.height >= inSitu.getHeight()){
                         layerRect.height= data.getDimensions().height-layer.bounds.y-1;
-                        layer.bounds.width= data.getDimensions().height-1;
+                        layer.bounds.height= data.getDimensions().height-layer.bounds.y-1;
                     }
+
                     BufferedImage subim = inSitu.getSubimage(layer.bounds.x, layer.bounds.y, layer.bounds.width, layer.bounds.height);
 
                     subim.setData(layer.getLayerImage().getSubimage(layerRect.x, layerRect.y, layerRect.width, layerRect.height).getData());
