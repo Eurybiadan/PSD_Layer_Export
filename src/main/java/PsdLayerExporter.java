@@ -9,15 +9,15 @@ import montage.PsdReader;
 import montage.ResourceReadProgressListener;
 import org.apache.logging.log4j.LogManager;
 
-import javax.imageio.ImageIO;
-import javax.imageio.ImageTypeSpecifier;
-import javax.imageio.ImageWriter;
+import javax.imageio.*;
 import javax.imageio.stream.ImageOutputStream;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.util.Iterator;
+
+import static javax.imageio.ImageWriteParam.MODE_EXPLICIT;
 
 public class PsdLayerExporter extends Application {
 
@@ -73,8 +73,14 @@ public class PsdLayerExporter extends Application {
                     }
 
                     ImageWriter psdWriter = writerList.next();
-
                     psdWriter.setOutput(output);
+
+                    ImageWriteParam imWriteParam = psdWriter.getDefaultWriteParam();
+                    imWriteParam.setCompressionMode(MODE_EXPLICIT);
+                    imWriteParam.setCompressionType("LZW");
+                   float qual = imWriteParam.getCompressionQuality();
+
+
 
                     //Add option here.
                     BufferedImage inSitu = imSpec.createBufferedImage(data.getDimensions().width, data.getDimensions().height);
@@ -101,7 +107,7 @@ public class PsdLayerExporter extends Application {
 
                     subim.setData(layer.getLayerImage().getSubimage(layerRect.x, layerRect.y, layerRect.width, layerRect.height).getData());
 
-                    psdWriter.write(inSitu);
+                    psdWriter.write(null, new IIOImage(inSitu,null,null), imWriteParam);
                     progAmt++;
                     progBar.imageProgress(null, (float) (100*progAmt/data.getNumLayers()) );
                 }

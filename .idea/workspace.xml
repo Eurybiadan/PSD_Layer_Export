@@ -5,17 +5,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PSD_Layer_Export.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PSD_Layer_Export.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/PsdLayerExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PsdLayerExporter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/PsdLayerExporter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdGroup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdLayer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdLayerNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/PsdTreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/ResourceReadProgressListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/montage/TreeDropFlavor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/PsdLayerExporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/PsdLayerExporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j2.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,43 +21,45 @@
     <session id="-1242146855">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="29" />
+          <entry key="java" value="32" />
           <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="29" />
+          <entry key="JAVA" value="32" />
           <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2239" />
+          <entry key="java" value="2426" />
           <entry key="xml" value="79" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2239" />
+          <entry key="JAVA" value="2426" />
           <entry key="XML" value="79" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="171" selection-start-line="171" selection-end-line="171" />
+            <state relative-caret-position="433">
+              <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,11 +70,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/PsdLayerExporter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="358">
+              <caret line="80" selection-start-line="80" selection-end-line="80" />
               <folding>
-                <element signature="e#4078#4079#0" expanded="true" />
-                <element signature="e#4118#4119#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -98,7 +91,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/montage/ResourceReadProgressListener.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
+            <state relative-caret-position="578">
               <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,43 +104,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdData.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="353">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-              <folding>
-                <element signature="docComment;class#AnalyticsMontage#0" />
-                <element signature="e#2872#3132#0" />
-                <element signature="e#3281#3536#0" />
-                <element signature="e#3542#4593#0" />
-                <element signature="e#4603#5514#0" />
-                <element signature="e#5524#6730#0" />
-                <element signature="e#6138#6312#0" />
-                <element signature="e#6811#7298#0" />
-                <element signature="e#7308#7834#0" />
-                <element signature="e#7246#7375#0" />
-                <element signature="e#7844#8297#0" />
-                <element signature="e#8307#9669#0" />
-                <element signature="e#9424#9598#0" />
-                <element signature="e#9759#9975#0" />
-                <element signature="e#9985#10665#0" />
-                <element signature="e#9921#9922#0" expanded="true" />
-                <element signature="e#9954#9955#0" expanded="true" />
-                <element signature="e#10710#10711#0" expanded="true" />
-                <element signature="e#10744#10745#0" expanded="true" />
-                <element signature="e#10755#10958#0" />
-                <element signature="e#10968#11681#0" />
-                <element signature="e#13185#13232#0" />
-                <element signature="e#13185#13797#0" />
-                <element signature="e#13807#14247#0" />
-                <element signature="e#14253#14575#0" />
-                <element signature="e#14692#14908#0" />
-                <element signature="e#14914#15248#0" />
-                <element signature="e#15362#15810#0" />
-                <element signature="e#15820#15869#0" />
-                <element signature="e#15820#16391#0" />
-                <element signature="e#16519#16638#0" />
-                <element signature="e#16648#17520#0" />
-                <element signature="e#17437#17466#0" />
-                <element signature="e#17536#17614#0" />
-              </folding>
+              <caret line="173" column="46" selection-start-line="173" selection-start-column="46" selection-end-line="173" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -233,6 +190,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -270,13 +229,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -333,30 +290,37 @@
     <frame x="-6" y="-6" width="1513" height="983" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1676976" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16975945" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3298122" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298122" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3298122" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39906102" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3298122" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39906102" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven Projects" visible="true" weight="0.3298969" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3298122" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" weight="0.3298969" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="fileType" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
@@ -368,13 +332,7 @@
     <select />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/PsdReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="172" column="27" lean-forward="true" selection-start-line="172" selection-start-column="27" selection-end-line="172" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PsdReader.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdLayerNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -382,16 +340,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/montage/MontageLayerPanel.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/montage/MontageNodeRenderer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/montage/MontageLayerPanel.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/montage/MontageNodeRenderer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/montage/TreeDropFlavor.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -462,76 +412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageWriter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="205" column="16" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/montage/ResourceReadProgressListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-          <folding>
-            <element signature="docComment;class#AnalyticsMontage#0" />
-            <element signature="e#2872#3132#0" />
-            <element signature="e#3281#3536#0" />
-            <element signature="e#3542#4593#0" />
-            <element signature="e#4603#5514#0" />
-            <element signature="e#5524#6730#0" />
-            <element signature="e#6138#6312#0" />
-            <element signature="e#6811#7298#0" />
-            <element signature="e#7308#7834#0" />
-            <element signature="e#7246#7375#0" />
-            <element signature="e#7844#8297#0" />
-            <element signature="e#8307#9669#0" />
-            <element signature="e#9424#9598#0" />
-            <element signature="e#9759#9975#0" />
-            <element signature="e#9985#10665#0" />
-            <element signature="e#9921#9922#0" expanded="true" />
-            <element signature="e#9954#9955#0" expanded="true" />
-            <element signature="e#10710#10711#0" expanded="true" />
-            <element signature="e#10744#10745#0" expanded="true" />
-            <element signature="e#10755#10958#0" />
-            <element signature="e#10968#11681#0" />
-            <element signature="e#13185#13232#0" />
-            <element signature="e#13185#13797#0" />
-            <element signature="e#13807#14247#0" />
-            <element signature="e#14253#14575#0" />
-            <element signature="e#14692#14908#0" />
-            <element signature="e#14914#15248#0" />
-            <element signature="e#15362#15810#0" />
-            <element signature="e#15820#15869#0" />
-            <element signature="e#15820#16391#0" />
-            <element signature="e#16519#16638#0" />
-            <element signature="e#16648#17520#0" />
-            <element signature="e#17437#17466#0" />
-            <element signature="e#17536#17614#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/GraphicsEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -553,20 +433,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/montage/ResourceReadProgressListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="142" column="39" selection-start-line="142" selection-start-column="39" selection-end-line="142" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/montage/PsdData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="173" column="46" selection-start-line="173" selection-start-column="46" selection-end-line="173" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageWriteParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="970" column="20" selection-start-line="970" selection-start-column="20" selection-end-line="970" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="574" column="51" lean-forward="true" selection-start-line="574" selection-start-column="51" selection-end-line="574" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PsdLayerExporter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="358">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
           <folding>
-            <element signature="e#4078#4079#0" expanded="true" />
-            <element signature="e#4118#4119#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,7 +548,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

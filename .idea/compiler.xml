@@ -10,8 +10,8 @@
         <module name="PSD_Layer_Export" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="PSD_Layer_Export" target="8" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="PSD_Layer_Export" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
